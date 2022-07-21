@@ -11,4 +11,6 @@ By default, this Powershell script creates 4 different Illustro skins; CPU, Moth
 specifically to one of these $config categories.  Update the $map variable with the *EXACT* names of your HWiNFO64 categories, and set the $config name where they 
 will be sent to.
 
+NOTE: anytime you update which HWiNFO64 sensors are enabled, you'll need to re-run this script to regenerate the skin configuration files and refresh them within Rainmeter.
+
 See the example.png in this repo for how it looks fully configured.
